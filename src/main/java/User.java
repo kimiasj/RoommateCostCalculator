@@ -3,5 +3,10 @@ public class User {
     Double costs ;
     Double owing ;
 
+    public Double AddCost (Double x){
+
+        return costs = costs + x;
+
+    }
 
 }

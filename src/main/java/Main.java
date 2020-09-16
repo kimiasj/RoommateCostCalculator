@@ -9,9 +9,8 @@ public class Main {
         kimia.costs = kimia.costs + 59.60;
         sahand.costs = 70.60;
         sahand.costs = sahand.costs + 250.15;
+        kimia.AddCost(200.00);
         
-
-
 
 
         kimia.owing = ((kimia.costs + sahand.costs)/2) - kimia.costs;
