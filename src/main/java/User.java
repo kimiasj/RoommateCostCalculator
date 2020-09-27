@@ -1,12 +1,30 @@
+import java.util.ArrayList;
+
 public class User {
     String name ;
-    Double costs ;
+    private ArrayList<Cost> costs;
     Double owing ;
 
-    public Double AddCost (Double x){
-
-        return costs = costs + x;
-
+    User () {
+        costs = new ArrayList<Cost>();
     }
 
+
+
+    public void addCost (Cost c){
+
+        costs.add(c);
+
+    }
+    public Double getCosts(){
+        Double total = 0.0;
+        for(int x=0;x<costs.size();x++)
+        {
+          total = total + costs.get(x).amount;
+
+        }
+        return total;
+    }
+
+    // TODO: print all costs
 }
