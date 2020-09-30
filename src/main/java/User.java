@@ -8,12 +8,16 @@ public class User {
     User () {
         costs = new ArrayList<Cost>();
     }
+    User(String newname){
+        name = newname;
+    }
 
 
 
     public void addCost (Cost c){
 
         costs.add(c);
+
 
     }
     public Double getCosts(){

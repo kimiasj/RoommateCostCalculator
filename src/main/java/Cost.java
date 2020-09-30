@@ -3,4 +3,7 @@ public class Cost {
     String category;
     User user;
     // TODO: Category, User
+    Cost(Double newamount){
+        amount = newamount;
+    }
 }
