@@ -5,17 +5,16 @@ public class User {
     private ArrayList<Cost> costs;
     Double owing ;
 
-    User () {
-        costs = new ArrayList<Cost>();
-    }
+
     User(String newname){
         name = newname;
+        costs = new ArrayList<Cost>();
     }
 
 
 
     public void addCost (Cost c){
-
+        c.user = this;
         costs.add(c);
 
 
@@ -29,6 +28,20 @@ public class User {
         }
         return total;
     }
+    public void printCosts(){
+
+        for(int i=0; i<costs.size();i++){
+            System.out.println(name+" - "+ costs.get(i).date+ " - " + costs.get(i).category+" - " +costs.get(i).amount); // replace with printCost()
+        }
+    }
+
+    public double printOwing(){
+
+    }
+
+
+
+
 
     // TODO: print all costs
 }

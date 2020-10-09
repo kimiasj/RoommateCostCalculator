@@ -1,9 +1,16 @@
+import java.util.Date;
+
 public class Cost {
-    Double amount;
-    String category;
-    User user;
-    // TODO: Category, User
-    Cost(Double newamount){
-        amount = newamount;
+    enum category{
+        FOOD, RENT, GAS, POWER, INTERNET
     }
+    Double amount;
+    String category;// TODO: replace with enum
+    User user;
+    Date date = new Date();
+    Cost(double newamount){
+        amount = newamount;
+
+    }
+
 }

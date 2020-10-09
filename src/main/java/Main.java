@@ -7,33 +7,38 @@ public class Main {
 
         Cost c1 = new Cost(100.20);
         kimia.addCost(c1);
+        c1.category = "food";
         Cost c2 = new Cost(20.40);
+        c2.category = "gas";
         kimia.addCost(c2);
-        ArrayList<User> newuser;
-        newuser = new ArrayList<User>();
-        newuser.add(new User());
-        User matt = new User("Matt");
+        Cost c3 = new Cost(100.20);
+        sahand.addCost(c3);
+        Cost c4 = new Cost(22.45);
+        c3.category = "rent";
 
-        // TODO: initialize all variables in constructor. Example: Cost c2 = new Cost(20.40); User kimia = new User("kimia");
+        ArrayList<User> newuser = new ArrayList<User>();
+        newuser.add(kimia);
+        newuser.add(sahand);
 
+        for (int i=0;i<newuser.size();i++){
+            newuser.get(i).printCosts();
+        }
 
         // TODO: use array list to have any number of users
 
-        kimia.owing = ((kimia.getCosts() + sahand.getCosts())/2) - kimia.getCosts();
-        sahand.owing = ((sahand.getCosts() + kimia.getCosts())/2) - sahand.getCosts();
-
-        if(kimia.owing > sahand.owing){
-            System.out.print(kimia.owing);
-            System.out.print(" Owed by Kimia");}
-        else
-
-        {System.out.print(sahand.owing);
-            System.out.print(" Owed by Sahand");}
 
 
     }
+    public static double AllCosts(){
+        double allCosts = 0.0;
+        for (int i=0;i<newuser.size();i++){
+            allCosts = newuser.get(i).getCosts() + allCosts;
+        }
+    }
 
 }
+
+
 
 
 
