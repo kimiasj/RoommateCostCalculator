@@ -6,8 +6,8 @@ public class User {
     Double owing ;
 
 
-    User(String newname){
-        name = newname;
+    User(String name){
+        this.name = name;
         costs = new ArrayList<Cost>();
     }
 
@@ -16,8 +16,6 @@ public class User {
     public void addCost (Cost c){
         c.user = this;
         costs.add(c);
-
-
     }
     public Double getCosts(){
         Double total = 0.0;
@@ -35,13 +33,5 @@ public class User {
         }
     }
 
-    public double printOwing(){
 
-    }
-
-
-
-
-
-    // TODO: print all costs
 }
