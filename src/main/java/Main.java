@@ -7,6 +7,7 @@ public class Main {
         User sahand = new User("Sahand");
         User matt = new User("Matt");
 
+
         Cost c1 = new Cost(10);
         kimia.addCost(c1);
         c1.category = Category.FOOD;
