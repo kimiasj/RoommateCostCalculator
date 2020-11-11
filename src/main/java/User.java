@@ -7,7 +7,8 @@ public class User {
     int id;
 
 
-    User(String name){
+    User(String name, int id){
+        this.id = id;
         this.name = name;
         costs = new ArrayList<Cost>();
     }

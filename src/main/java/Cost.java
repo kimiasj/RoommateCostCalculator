@@ -5,9 +5,18 @@ public class Cost {
     Double amount;
     Category category;// TODO: replace with enum
     User user;
+    int id;
     Date date = new Date();
     Cost(double newamount){
         amount = newamount;
+
+    }
+    Cost(int id, Double amount, Category category, User user,Date date){
+       this.amount = amount;
+       this.category = category;
+       this.user = user;
+       this.date = date;
+       this.id = id;
 
     }
 
