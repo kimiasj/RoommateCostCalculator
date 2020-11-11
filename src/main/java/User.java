@@ -4,6 +4,7 @@ public class User {
     String name ;
     private ArrayList<Cost> costs;
     Double owing ;
+    int id;
 
 
     User(String name){

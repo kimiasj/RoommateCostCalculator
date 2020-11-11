@@ -9,8 +9,8 @@
         <module name="RoommateCostCalculator" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="RoommateCostCalculator" target="1.14" />
+    <bytecodeTargetLevel target="15">
+      <module name="RoommateCostCalculator" target="1.15" />
     </bytecodeTargetLevel>
   </component>
 </project>
