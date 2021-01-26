@@ -23,14 +23,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="884415f6-5627-4b8a-8160-4da6d582ef43" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Cost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Cost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Cost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Cost.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,16 +57,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.21.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/JavaPad-main" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="DBNavigator.Project.ConnectionSettings" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Java Scratch.Scratch (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="RoommateCostCalculator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scratch (1)" type="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+      <option name="SCRATCH_FILE_URL" value="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Java Scratch.Scratch (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Java Scratch.scratch" />
         <item itemvalue="Java Scratch.Scratch" />
@@ -126,10 +128,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599151556273">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605981178698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1599151556273" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605981178698" />
+    <state x="626" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1606918950539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="626" y="123" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1606918950539" />
     <state x="349" y="127" key="DBNavigator.DatasetFilterDialog" timestamp="1604094489225">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -138,26 +144,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="67" key="DBNavigator.ProjectSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1603910940354" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1603988931526">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1607010370768">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1603988931526" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom" timestamp="1605105334059">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1607010370768" />
+    <state width="1494" height="272" key="GridCell.Tab.0.bottom" timestamp="1605990009437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605105334059" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center" timestamp="1605105334059">
+    <state width="1494" height="272" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605990009437" />
+    <state width="1494" height="272" key="GridCell.Tab.0.center" timestamp="1605990009436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605105334059" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left" timestamp="1605105334059">
+    <state width="1494" height="272" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605990009436" />
+    <state width="1494" height="272" key="GridCell.Tab.0.left" timestamp="1605990009436">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605105334059" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right" timestamp="1605105334059">
+    <state width="1494" height="272" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605990009436" />
+    <state width="1494" height="272" key="GridCell.Tab.0.right" timestamp="1605990009437">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605105334059" />
+    <state width="1494" height="272" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605990009437" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1603935369871">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -174,17 +180,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603935369871" />
-    <state x="498" y="0" key="SettingsEditor" timestamp="1603988979307">
+    <state x="276" y="0" key="SettingsEditor" timestamp="1606918952933">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1603988979307" />
-    <state x="209" y="31" key="new project wizard" timestamp="1602113260874">
+    <state x="276" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1606918952933" />
+    <state x="165" y="31" key="new project wizard" timestamp="1607563470644">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="209" y="31" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1602113260874" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1603936910116">
+    <state x="165" y="31" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1607563470644" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1605989509973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1603936910116" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605989509973" />
   </component>
 </project>
